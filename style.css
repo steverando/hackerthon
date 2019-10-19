@@ -1,0 +1,81 @@
+.green{
+    /* background-color: greenyellow; */
+    height: 80px;
+}
+.purple{
+    /* background-color: purple; */
+    height: 80px;
+}
+.orange{
+    /* background-color: orange; */
+    height: 80px;
+}
+.blue{
+    /* background-color: blue; */
+    height: 80px;
+}
+#main{
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+@keyframes color {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: green;
+    }
+}
+
+#r1{
+    -webkit-animation: color 1s infinite;
+    animation: color 1s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes bgcolor {
+    0% {
+        background-color: purple;
+    }
+    50% {
+        background-color:purple;
+    }
+}
+
+#r2{
+    -webkit-animation: bgcolor 3s infinite;
+    animation: bgcolor 3s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes bcolor {
+    0% {
+        background-color:orange;
+    }
+    50% {
+        background-color:orange;
+    }
+}
+
+#r3{
+    -webkit-animation: bcolor 4s infinite;
+    animation: bcolor 4s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+@keyframes gcolor {
+    0% {
+        background-color: blue;
+    }
+    50% {
+        background-color:blue;
+    }
+}
+
+#r4{
+    -webkit-animation: gcolor 20s infinite;
+    animation: gcolor 1s infinite;
+    -webkit-animation-direction: alternate; 
+    animation-direction: alternate;
+}
